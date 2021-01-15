@@ -1,0 +1,29 @@
+/*body background is #f9fafc. Gray colors are #69696a. Black is #000. 
+The buttons text are #FFF. Border left of description is Gray */
+
+body{
+    font-family: "Open Sans", sans-serif;
+    background-color: #f9fafc;
+}
+
+/*Didn't specify anything for hover or active so I hope it's fine that they 
+remain gray and not underlined*/
+a:link{
+    text-decoration: none;
+    color: #69696a;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #69696a;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #69696a;
+}
+
+a:active{
+    text-decoration: none;
+    color: #69696a;
+}
