@@ -1,13 +1,16 @@
 /*body background is #f9fafc. Gray colors are #69696a. Black is #000. 
 The buttons text are #FFF. Border left of description is Gray */
 
+/*remember to put general specifications and mobile outside of the media 
+screen style. That's where full screen styles will go*/
+
 body{
     font-family: "Open Sans", sans-serif;
     background-color: #f9fafc;
 }
 
-/*Didn't specify anything for hover or active so I hope it's fine that they 
-remain gray and not underlined*/
+/*Didn't specify anything for hover or active. Ask if they just want it the same.
+I assume they do.*/
 a:link{
     text-decoration: none;
     color: #69696a;
@@ -26,4 +29,18 @@ a:visited{
 a:active{
     text-decoration: none;
     color: #69696a;
+}
+
+.button{
+    background-color: #000;
+    color: #FFF;
+    width: 100%;
+    border-radius: 10px;
+}
+
+h2{
+    font-size: large;
+}
+/*put all the full screen stuff that doesn't translate to mobile here*/
+@media screen and (min-width: 768px){
 }
