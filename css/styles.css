@@ -119,7 +119,7 @@ footer{
         height: 240px;
         position: absolute;
         top: 25vh;
-        right: 8vw;
+        right: 7vw;
     }
 
     #circleMed{
@@ -128,8 +128,8 @@ footer{
         width: 200px;
         height: 200px;
         position: absolute;
-        top: 45vh;
-        right: 1vw;
+        top: 44vh;
+        right: 2vw;
     }
 
     #circleSml{
