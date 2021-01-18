@@ -79,7 +79,7 @@ footer{
         flex-flow: row;
         width: 100%;
         justify-content: space-between;
-        height: 60px;
+        height: 10vh;
     }
 
     h2{
@@ -95,35 +95,48 @@ footer{
         align-items: center;
     }
 
-    /*had to make ids for button divs to be specific */
     #hire{
         width: 85px;
         margin: 0px 5px 0px 0px;
     }
     /*Main part of screen*/
+    main{
+        height:80vh
+    }
+
     p{
-        width:50%
+        width:50vh;
     }
 
     #circleLrg{
         background:rgba(247, 136, 167, 0.6);
         border-radius: 50%;
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
+        position: fixed;
+        top: 100px;
+
     }
 
     #circleMed{
         background:rgba(247, 193, 162, 0.7);
         border-radius: 50%;
-        width: 125px;
-        height: 125px;
+        width: 160px;
+        height: 160px;
+        position:fixed;
+        right:5px;
     }
 
     #circleSml{
         background:rgba(207, 130, 213, 0.6);
         border-radius: 50%;
-        width: 100px;
-        height: 100px;
+        width: 120px;
+        height: 120px;
+        position:fixed;
+        right:5px;
     }
     /*Bottom of screen*/
+    footer{
+        height: 10vh;
+    }
 }
