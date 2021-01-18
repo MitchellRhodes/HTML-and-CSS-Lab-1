@@ -79,11 +79,11 @@ footer{
         flex-flow: row;
         width: 100%;
         justify-content: space-between;
-        height: 10vh;
+        height: 20vh;
     }
 
     h2{
-        align-self: center;
+        align-items: center;
         margin-left: 5px;
     }
 
@@ -101,19 +101,21 @@ footer{
     }
     /*Main part of screen*/
     main{
-        height:80vh
+        height:70vh
     }
 
     p{
-        width:50vh;
+        width:50%;
     }
 
+    /*ask if by fixed width they mean they never change size or if they mean 
+    they scale so it takes up the same amount of screen*/
     #circleLrg{
         background:rgba(247, 136, 167, 0.6);
         border-radius: 50%;
         width: 200px;
         height: 200px;
-        position: fixed;
+        position:absolute;
         top: 100px;
 
     }
@@ -123,7 +125,7 @@ footer{
         border-radius: 50%;
         width: 160px;
         height: 160px;
-        position:fixed;
+        position:absolute;
         right:5px;
     }
 
@@ -132,11 +134,18 @@ footer{
         border-radius: 50%;
         width: 120px;
         height: 120px;
-        position:fixed;
+        position:absolute;
         right:5px;
     }
     /*Bottom of screen*/
     footer{
         height: 10vh;
+    }
+
+    #scroll{
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        transform: translate(-50%, 215%);
     }
 }
