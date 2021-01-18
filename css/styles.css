@@ -84,8 +84,9 @@ footer{
     }
 
     h2{
-        align-items: center;
+        margin-top: 18px;
         margin-left: 5px;
+        height: 60px;
     }
 
     nav{
@@ -105,8 +106,8 @@ footer{
         height:70vh
     }
 
-    p{
-        width:50%;
+    #text{
+        width:50vw;
     }
 
     /*ask if by fixed width they mean they never change size or if they mean 
@@ -117,8 +118,8 @@ footer{
         width: 200px;
         height: 200px;
         position:absolute;
-        top: 100px;
-
+        top: 25vh;
+        right:20vw;
     }
 
     #circleMed{
@@ -127,7 +128,7 @@ footer{
         width: 160px;
         height: 160px;
         position:absolute;
-        right:5px;
+        right:10px;
     }
 
     #circleSml{
@@ -136,7 +137,7 @@ footer{
         width: 120px;
         height: 120px;
         position:absolute;
-        right:5px;
+        right:10px;
     }
     /*Bottom of screen*/
     footer{
