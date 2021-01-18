@@ -73,6 +73,7 @@ footer{
 
 /*put all the full screen stuff that doesn't translate to mobile here*/
 @media screen and (min-width: 768px){
+    /*Top of screen*/
     header{
         display: inline-flex;
         flex-flow: row;
@@ -96,11 +97,33 @@ footer{
 
     /*had to make ids for button divs to be specific */
     #hire{
-        width: 90px;
+        width: 85px;
         margin: 0px 5px 0px 0px;
     }
-
+    /*Main part of screen*/
     p{
         width:50%
     }
+
+    #circleLrg{
+        background:rgba(247, 136, 167, 0.6);
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+    }
+
+    #circleMed{
+        background:rgba(247, 193, 162, 0.7);
+        border-radius: 50%;
+        width: 125px;
+        height: 125px;
+    }
+
+    #circleSml{
+        background:rgba(207, 130, 213, 0.6);
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+    }
+    /*Bottom of screen*/
 }
