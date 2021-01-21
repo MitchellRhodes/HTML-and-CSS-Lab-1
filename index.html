@@ -13,26 +13,34 @@
 <body>
     <header>
         <h2>chirpus inc.</h2>
+        <!--Need divs for the buttons so I can give margins-->
         <nav>
             <a href="#">Work</a>
             <a href="#">About us</a>
             <a href="#">Contact</a>
-            <div class="spacing">
+            <div class="spacing" id="hire">
                 <button type="button" class="button">Hire Us</button>
             </div>
         </nav>
     </header>
     <main>
         <h1>chirpus inc.</h1>
-        <!--May need to make a div. the line on the side is probably just a border-->
-        <p>Lorem, ipsum dolor sit amet consectetur adispisicing elit.
-            Amet qui in ipsum fugiat atque obcaecati repellendus sunt, delectus a
-            optio magni dolorum ellgendi sapiente ut ab, dignissimos aliquam.
-            Ducimus, natus? Amet qui in ipsum fugiat atque obcaecati repellendus sunt, delectus a
-            optio magni dolorum ellgendi sapiente ut ab, dignissimos aliquam.</p>
+        <!--Line on the side is probably just a border-->
+        <div id="text">
+            <p>Lorem, ipsum dolor sit amet consectetur adispisicing elit.
+                Amet qui in ipsum fugiat atque obcaecati repellendus sunt, delectus a
+                optio magni dolorum ellgendi sapiente ut ab, dignissimos aliquam.
+                Ducimus, natus? Amet qui in ipsum fugiat atque obcaecati repellendus sunt, delectus a
+                optio magni dolorum ellgendi sapiente ut ab, dignissimos aliquam.
+            </p>
+        </div>
+        <!--Divs for the circles. Medium is top layer and large is bottom. put at bottom for top-->
+        <div class=circle id=circleLrg></div>
+        <div class=circle id=circleSml></div>
+        <div class=circle id=circleMed></div>
     </main>
     <footer>
-        <div class="spacing">
+        <div class="spacing" id="scroll">
             <button type="button" class="button">Scroll Down</button>
         </div>
     </footer>
