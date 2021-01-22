@@ -76,7 +76,7 @@ footer{
 @media screen and (min-width: 768px){
     /*Top of screen*/
     header{
-        display: inline-flex;
+        display: flex;
         flex-flow: row;
         width: 100%;
         justify-content: space-between;
@@ -142,13 +142,13 @@ footer{
     }
     /*Bottom of screen*/
     footer{
+        display: flex;
         height: 10vh;
+        justify-content: center;
     }
 
     #scroll{
-        position: absolute;
-        bottom: 0px;
-        left: 50%;
-        transform: translate(-50%, 215%);
+        align-self: flex-end;
+        width:12%;
     }
 }
